@@ -1,14 +1,15 @@
 module discord2line
 
-go 1.18
+go 1.24.0
 
 require (
-	github.com/bwmarrin/discordgo v0.25.0 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/joho/godotenv v1.4.0 // indirect
-	github.com/line/line-bot-sdk-go/v7 v7.15.0 // indirect
-	github.com/samber/lo v1.20.0 // indirect
-	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect
-	golang.org/x/exp v0.0.0-20220303212507-bbda1eaf7a17 // indirect
-	golang.org/x/sys v0.0.0-20211019181941-9d821ace8654 // indirect
+	github.com/bwmarrin/discordgo v0.29.0
+	github.com/joho/godotenv v1.5.1
+	github.com/line/line-bot-sdk-go/v7 v7.21.0
+)
+
+require (
+	github.com/gorilla/websocket v1.5.3 // indirect
+	golang.org/x/crypto v0.46.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
 )
